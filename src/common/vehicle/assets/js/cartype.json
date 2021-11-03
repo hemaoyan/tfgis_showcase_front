@@ -1,0 +1,526 @@
+[
+  {
+    "title": "车辆类型",
+    "enName": "",
+    "isSubShow": false,
+    "subItems": [
+      {
+        "select": true,
+        "id": 311,
+        "value": "不限"
+      },
+      {
+        "select": false,
+        "id": 312,
+        "value": "小型普通客车"
+      },
+      {
+        "select": false,
+        "id": 313,
+        "value": "中型普通客车"
+      },
+      {
+        "select": false,
+        "id": 314,
+        "value": "大型普通客车"
+      },
+      {
+        "select": false,
+        "id": 315,
+        "value": "搅拌车"
+      },
+      {
+        "select": false,
+        "id": 316,
+        "value": "半挂车"
+      },
+      {
+        "select": false,
+        "id": 317,
+        "value": "沥青车"
+      },
+      {
+        "select": false,
+        "id": 318,
+        "value": "渣土车"
+      },
+      {
+        "select": false,
+        "id": 319,
+        "value": "自卸车"
+      },
+      {
+        "select": false,
+        "id": 3110,
+        "value": "洒水车"
+      },
+      {
+        "select": false,
+        "id": 3111,
+        "value": "清障车"
+      },
+      {
+        "select": false,
+        "id": 3112,
+        "value": "电力检修车"
+      },
+      {
+        "select": false,
+        "id": 3113,
+        "value": "消防车"
+      }
+    ]
+  },
+  {
+    "title": "运输行业",
+    "enName": "",
+    "isSubShow": false,
+    "subItems": [
+      {
+        "select": true,
+        "id": 511,
+        "value": "不限"
+      },
+      {
+        "select": false,
+        "id": 512,
+        "value": "旅游包车"
+      },
+      {
+        "select": false,
+        "id": 513,
+        "value": "三类以上班线客车"
+      },
+      {
+        "select": false,
+        "id": 514,
+        "value": "危险品运输车"
+      },
+      {
+        "select": false,
+        "id": 515,
+        "value": "重型货车"
+      },
+      {
+        "select": false,
+        "id": 516,
+        "value": "中型货车"
+      },
+      {
+        "select": false,
+        "id": 517,
+        "value": "小型货车"
+      },
+      {
+        "select": false,
+        "id": 518,
+        "value": "集装箱运输车"
+      },
+      {
+        "select": false,
+        "id": 519,
+        "value": "平板车"
+      },
+      {
+        "select": false,
+        "id": 5110,
+        "value": "栏板车"
+      },
+      {
+        "select": false,
+        "id": 5111,
+        "value": "仓栅车"
+      },
+      {
+        "select": false,
+        "id": 5112,
+        "value": "冷藏车"
+      },
+      {
+        "select": false,
+        "id": 5113,
+        "value": "车辆运输车"
+      }
+    ]
+  },
+  {
+    "title": "车籍地",
+    "enName": "",
+    "isSubShow": false,
+    "subItems": [
+      {
+        "select": true,
+        "id": 111,
+        "value": "不限"
+      },
+      {
+        "select": false,
+        "id": 112,
+        "value": "北京市"
+      },
+      {
+        "select": false,
+        "id": 113,
+        "value": "天津市"
+      },
+      {
+        "select": false,
+        "id": 114,
+        "value": "上海市"
+      },
+      {
+        "select": false,
+        "id": 115,
+        "value": "重庆市"
+      },
+      {
+        "select": false,
+        "id": 116,
+        "value": "黑龙江省"
+      },
+      {
+        "select": false,
+        "id": 117,
+        "value": "辽宁省"
+      },
+      {
+        "select": false,
+        "id": 118,
+        "value": "吉林省"
+      },
+      {
+        "select": false,
+        "id": 119,
+        "value": "河北省"
+      },
+      {
+        "select": false,
+        "id": 1110,
+        "value": "河南省"
+      },
+      {
+        "select": false,
+        "id": 1111,
+        "value": "湖北省"
+      },
+      {
+        "select": false,
+        "id": 1112,
+        "value": "湖南省"
+      },
+      {
+        "select": false,
+        "id": 1113,
+        "value": "山东省"
+      },
+      {
+        "select": false,
+        "id": 1114,
+        "value": "山西省"
+      },
+      {
+        "select": false,
+        "id": 1115,
+        "value": "陕西省"
+      },
+      {
+        "select": false,
+        "id": 1116,
+        "value": "安徽省"
+      },
+      {
+        "select": false,
+        "id": 1117,
+        "value": "浙江省"
+      },
+      {
+        "select": false,
+        "id": 1118,
+        "value": "江苏省"
+      },
+      {
+        "select": false,
+        "id": 1119,
+        "value": "福建省"
+      },
+      {
+        "select": false,
+        "id": 1120,
+        "value": "广东省"
+      },
+      {
+        "select": false,
+        "id": 1121,
+        "value": "海南省"
+      },
+      {
+        "select": false,
+        "id": 1122,
+        "value": "四川省"
+      },
+      {
+        "select": false,
+        "id": 1123,
+        "value": "云南省"
+      },
+      {
+        "select": false,
+        "id": 1124,
+        "value": "贵州省"
+      },
+      {
+        "select": false,
+        "id": 1125,
+        "value": "青海省"
+      },
+      {
+        "select": false,
+        "id": 1126,
+        "value": "甘肃省"
+      },
+      {
+        "select": false,
+        "id": 1127,
+        "value": "江西省"
+      },
+      {
+        "select": false,
+        "id": 1128,
+        "value": "台湾省"
+      },
+      {
+        "select": false,
+        "id": 1129,
+        "value": "内蒙古自治区"
+      },
+      {
+        "select": false,
+        "id": 1130,
+        "value": "宁夏回族自治区"
+      },
+      {
+        "select": false,
+        "id": 1131,
+        "value": "新疆维吾尔自治区"
+      },
+      {
+        "select": false,
+        "id": 1132,
+        "value": "西藏自治区"
+      },
+      {
+        "select": false,
+        "id": 1133,
+        "value": "广西壮族自治区"
+      }
+    ]
+  },
+  {
+    "title": "经营范围",
+    "enName": "",
+    "isSubShow": false,
+    "subItems": [
+      {
+        "select": true,
+        "id": 411,
+        "value": "不限"
+      },
+      {
+        "select": false,
+        "id": 412,
+        "value": "县际包车客运"
+      },
+      {
+        "select": false,
+        "id": 413,
+        "value": "市际包车客运"
+      },
+      {
+        "select": false,
+        "id": 414,
+        "value": "省际包车客运"
+      },
+      {
+        "select": false,
+        "id": 415,
+        "value": "危险货品道路运输"
+      },
+      {
+        "select": false,
+        "id": 416,
+        "value": "放射性物品道路运输"
+      },
+      {
+        "select": false,
+        "id": 417,
+        "value": "生鲜乳道路运输"
+      },
+      {
+        "select": false,
+        "id": 418,
+        "value": "核材料运输"
+      },
+      {
+        "select": false,
+        "id": 419,
+        "value": "民用核材料运输"
+      },
+      {
+        "select": false,
+        "id": 4110,
+        "value": "县际物流运输"
+      },
+      {
+        "select": false,
+        "id": 4111,
+        "value": "市际物流运输"
+      },
+      {
+        "select": false,
+        "id": 4112,
+        "value": "省际物流运输"
+      }
+    ]
+  },
+  {
+    "title": "品牌",
+    "enName": "",
+    "isSubShow": false,
+    "subItems": [
+      {
+        "select": true,
+        "id": 211,
+        "value": "不限"
+      },
+      {
+        "select": false,
+        "id": 212,
+        "value": "重汽"
+      },
+      {
+        "select": false,
+        "id": 213,
+        "value": "东风"
+      },
+      {
+        "select": false,
+        "id": 214,
+        "value": "解放"
+      },
+      {
+        "select": false,
+        "id": 215,
+        "value": "福田"
+      },
+      {
+        "select": false,
+        "id": 216,
+        "value": "江淮"
+      },
+      {
+        "select": false,
+        "id": 217,
+        "value": "国五"
+      },
+      {
+        "select": false,
+        "id": 218,
+        "value": "国六"
+      },
+      {
+        "select": false,
+        "id": 219,
+        "value": "跃进"
+      },
+      {
+        "select": false,
+        "id": 2110,
+        "value": "江铃"
+      },
+      {
+        "select": false,
+        "id": 2111,
+        "value": "多利卡"
+      },
+      {
+        "select": false,
+        "id": 2112,
+        "value": "基洛夫"
+      },
+      {
+        "select": false,
+        "id": 2113,
+        "value": "久兴"
+      },
+      {
+        "select": false,
+        "id": 2114,
+        "value": "富鑫"
+      },
+      {
+        "select": false,
+        "id": 2115,
+        "value": "长安"
+      },
+      {
+        "select": false,
+        "id": 2116,
+        "value": "唐骏"
+      },
+      {
+        "select": false,
+        "id": 2117,
+        "value": "雷诺"
+      },
+      {
+        "select": false,
+        "id": 2118,
+        "value": "奔驰"
+      }
+    ]
+  },
+  {
+    "title": "是否黄标车",
+    "enName": "",
+    "isSubShow": false,
+    "subItems": [
+      {
+        "select": true,
+        "id": 611,
+        "value": "不限"
+      },
+      {
+        "select": false,
+        "id": 612,
+        "value": "是"
+      },
+      {
+        "select": false,
+        "id": 613,
+        "value": "否"
+      }
+    ]
+  },
+  {
+    "title": "既定轨迹",
+    "enName": "",
+    "isSubShow": false,
+    "subItems": [
+      {
+        "select": true,
+        "id": 711,
+        "value": "不限"
+      },
+      {
+        "select": false,
+        "id": 712,
+        "value": "有"
+      },
+      {
+        "select": false,
+        "id": 713,
+        "value": "无"
+      }
+    ]
+  }
+]

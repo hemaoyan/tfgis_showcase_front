@@ -1,0 +1,56 @@
+//主题颜色
+$color_primary: #2154F4;
+$color_gray: #cacdd0;
+$color_bg: #FFFFFF;
+
+
+// text color
+$color_text_major: #323232; // 主要字体颜色
+$color_text_minor: #959FA8; // 辅助字体颜色
+// $color_text_active: #2154F4; // 活跃字体颜色
+$color_text_active_other: #FFFFFF; // 活跃字体颜色
+// $color_text_image: #979FA7; // 图标字体颜色
+
+// Fonts:
+$font_size_bigest: 30px;
+$font_size_big: 18px;
+$font_size_base: 14px;
+$font_size_small: 12px;
+$font_size_smallest: 10px;
+$font_weight_normal: normal;
+$font_weight_bold: bold;
+
+// bg color
+// $color_bg: #FFFFFF;
+$color_bg_transparent: transparent;
+// $color_bg_active: #2154F4;
+$color_bg_active_other: #DBDBDB;
+$color_bg_active_tool: #FFFFFF;
+
+
+// headbar
+$headBarHeight: 50px;
+
+// border
+$border_radius_normal: 12px;
+$border_radius_small: 6px;
+
+// img
+$img_width: 24px;
+$img_height: 24px;
+$img_container_width: 36px;
+$img_container_height: 36px;
+
+// fade时间
+$transition_time: all 0.4s;
+
+// 车辆状态
+$vehicle_online: #3BA0FF;
+$vehicle_outline: #B3B8BA;
+$vehicle_alerm: #FF0000;
+
+:export {
+  // border-radius-normal: $border_radius_normal;
+}
+
+

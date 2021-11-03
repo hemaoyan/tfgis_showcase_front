@@ -1,0 +1,29 @@
+{
+	"alermType": [
+		{"value": "0", "label": "不限"}, 
+		{"value": "1", "label": "超速"}, 
+		{"value": "2", "label": "疲劳驾驶"}, 
+		{"value": "3", "label": "偏航行驶"}, 
+		{"value": "4", "label": "超区域行驶"}, 
+		{"value": "5", "label": "未报备驶入"}, 
+		{"value": "6", "label": "违停"}, 
+		{"value": "7", "label": "隧道滞留"}, 
+		{"value": "8", "label": "凌晨行驶"}
+	],
+	"vehicleType": [
+		{"value": "0", "label": "不限"}, 
+		{"value": "1", "label": "客车"}, 
+		{"value": "2", "label": "货车"}, 
+		{"value": "3", "label": "危险品车"}
+	],
+	"arr_vehicle": [
+		{"value": "0", "label": "津B·6328C"}, 
+		{"value": "1", "label": "津B·63442"}, 
+		{"value": "2", "label": "津B·63876"}, 
+		{"value": "4", "label": "津A·31415"},
+		{"value": "5", "label": "津A·31416"},
+		{"value": "6", "label": "津A·31477"},
+		{"value": "7", "label": "津A·31421"},
+		{"value": "8", "label": "津A·31466"}
+	]
+}

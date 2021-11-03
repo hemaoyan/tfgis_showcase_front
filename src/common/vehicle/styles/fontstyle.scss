@@ -1,0 +1,35 @@
+// 字体大小
+$font_size_unit: 2px; // 字体大小计量单位
+
+.font_10 {
+  font-size: $font_size_unit * 5;
+}
+.font_12 {
+  font-size: $font_size_unit * 6;
+}
+.font_14 {
+  font-size: $font_size_unit * 7;
+}
+.font_16 {
+  font-size: $font_size_unit * 8;
+}
+.font_18 {
+  font-size: $font_size_unit * 9;
+}
+.font_30 {
+  font-size: $font_size_unit * 15;
+}
+
+.font_normal {
+  font-weight: normal;
+}
+
+.font_bold {
+  font-weight: bold;
+}
+
+// 字体颜色
+
+.font_active{
+  color: $color_primary;
+}

@@ -1,0 +1,97 @@
+@import './variables.scss';
+@import './common.scss';
+@import './headbar.scss';
+
+//app-container全局样式
+.app-container {
+  font-size: $font-size-base;
+  font-family: Source Han Sans CN;
+  font-weight: $font-weight-normal;
+  color: $color-text-major;
+}
+
+.div-nav-group{
+  position: absolute;
+  width: 100%;
+  bottom: 9%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .div-nav{
+    // background:#303336;
+    // border: 1px solid #444;
+    background: url("~@/common/demotfprojectshow/assets/nav-bg.png") no-repeat;
+    background-size: 100% 100%;
+    border-radius: $border-radius-small;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0px 20px;
+    cursor: pointer;
+  }
+  .div-nav:hover{
+    background: #48b;
+    border-color: #aef;
+    -webkit-box-shadow: 0 0 8px #fff;
+    box-shadow: 0 0 8px #fff;
+  }
+  
+}
+
+.div-btn-container{
+  position: absolute;
+  right: 15px;
+  bottom: 192px;
+  width: 32px;
+  height: 32px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background:#303336;
+  border: 1px solid #444;
+  cursor: pointer;
+  img{
+    width: 22px;
+    height: 22px;
+  }
+}
+.div-btn-container:hover{
+  color: #fff;
+  fill: #fff;
+  background: #48b;
+  border-color: #aef;
+  -webkit-box-shadow: 0 0 8px #fff;
+  box-shadow: 0 0 8px #fff;
+}
+
+/* 自右向左 */
+.fade-fromRight-enter-active,
+.fade-fromRight-leave-active {
+    transition: all 0.8s;
+}
+.fade-fromRight-enter {
+    opacity: 0;
+    transform: translateX(300px);
+}
+.fade-fromRight-leave-to {
+    opacity: 0;
+    transform: translateX(300px);
+}
+
+/* 自小变大-X */
+.fade-fromSmallX-enter-active,
+.fade-fromSmallX-leave-active {
+    transition: all 0.8s;
+}
+.fade-fromSmallX-enter {
+    opacity: 0;
+    transform: scaleX(0.5);
+}
+.fade-fromSmallX-leave-to {
+    opacity: 0;
+    transform: scaleX(0.5);
+}

@@ -1,0 +1,19 @@
+@import './variables.scss';
+@import './public.scss';
+@import './headbar.scss';
+@import './fadestyle.scss';
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: $font-size-base;
+  font-family: Source Han Sans CN;
+  font-weight: $font-weight-normal;
+  color: $color_text;
+}
+
+#app {
+  height: 100%;
+}

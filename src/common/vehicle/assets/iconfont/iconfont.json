@@ -1,0 +1,576 @@
+{
+  "id": "2659546",
+  "name": "车联网",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon_",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "22990375",
+      "name": "组 6825",
+      "font_class": "a-zu6825",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "22990376",
+      "name": "组 6774",
+      "font_class": "a-zu67741",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "22990377",
+      "name": "组 6823",
+      "font_class": "a-zu6823",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "22990378",
+      "name": "组 6794",
+      "font_class": "a-zu67941",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "22990379",
+      "name": "组 6826",
+      "font_class": "a-zu6826",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "22990380",
+      "name": "组 6766",
+      "font_class": "a-zu67661",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "22989219",
+      "name": "组 6822",
+      "font_class": "a-zu6822",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "22773997",
+      "name": "julei",
+      "font_class": "a-111",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "22740732",
+      "name": "凌晨行驶",
+      "font_class": "a-zu6790",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "22740733",
+      "name": "组 6787",
+      "font_class": "a-zu6787",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "22740734",
+      "name": "减",
+      "font_class": "a-zu6796",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "22740735",
+      "name": "危险品车",
+      "font_class": "a-zu6795",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "22740736",
+      "name": "车辆异常",
+      "font_class": "a-zujian353",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "22740737",
+      "name": "超区域行驶",
+      "font_class": "a-zu6791",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "22740738",
+      "name": "隧道滞留",
+      "font_class": "a-zu6794",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "22740739",
+      "name": "清空",
+      "font_class": "a-zujian4313",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "22740740",
+      "name": "车辆关注-1",
+      "font_class": "cheliangguanzhu-1",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "22740741",
+      "name": "违停",
+      "font_class": "a-zu6792",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "22740742",
+      "name": "车辆离线",
+      "font_class": "a-zujian354",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "22740743",
+      "name": "货车",
+      "font_class": "huoche",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "22740744",
+      "name": "纯净模式",
+      "font_class": "chunjingmoshi",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "22740745",
+      "name": "框选工具",
+      "font_class": "a-lujing485",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "22740746",
+      "name": "车辆详情",
+      "font_class": "a-zujian465",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "22740747",
+      "name": "正常行驶",
+      "font_class": "a-zujian352",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "22740748",
+      "name": "车辆定位",
+      "font_class": "a-lujing472",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "22740749",
+      "name": "工具箱",
+      "font_class": "gongjuxiang",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "22740750",
+      "name": "开",
+      "font_class": "kai",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "22740751",
+      "name": "开始",
+      "font_class": "a-lujing2505",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "22740752",
+      "name": "查询",
+      "font_class": "fangdajing",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "22740753",
+      "name": "报警分析",
+      "font_class": "baojingfenxi",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "22740754",
+      "name": "加",
+      "font_class": "a-zu327",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "22740755",
+      "name": "车辆关注",
+      "font_class": "cheliangguanzhu",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "22740756",
+      "name": "客车",
+      "font_class": "keche",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "22740757",
+      "name": "删除",
+      "font_class": "a-lujing2663",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "22740758",
+      "name": "聚类",
+      "font_class": "julei",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "22740759",
+      "name": "车辆轨迹",
+      "font_class": "a-lujing604",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "22740760",
+      "name": "未报备驶入",
+      "font_class": "a-zu6775",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "22740761",
+      "name": "删除",
+      "font_class": "a-zu6783",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "22740762",
+      "name": "超速",
+      "font_class": "a-zu6793",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "22740763",
+      "name": "实时路网",
+      "font_class": "shishiluwang",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "22740764",
+      "name": "指南针",
+      "font_class": "a-zu332",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "22740765",
+      "name": "路线分析",
+      "font_class": "luxianfenxi",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "22740766",
+      "name": "路径 484",
+      "font_class": "a-lujing484",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "22740767",
+      "name": "组 370",
+      "font_class": "a-zu370",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "22740768",
+      "name": "关",
+      "font_class": "guan",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "22740769",
+      "name": "自定义涂层管理器",
+      "font_class": "zidingyitucengguanliqi",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "22740770",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "22740771",
+      "name": "偏航里程",
+      "font_class": "a-zu6774",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "22740772",
+      "name": "loading",
+      "font_class": "a-zu415",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "22740773",
+      "name": "车辆关注-2",
+      "font_class": "cheliangguanzhu-2",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "22740774",
+      "name": "关闭",
+      "font_class": "a-lujing2664",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "22740775",
+      "name": "地图定位",
+      "font_class": "a-zu405",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "22740776",
+      "name": "测量工具",
+      "font_class": "a-lujing486",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "22740777",
+      "name": "流向分析",
+      "font_class": "liuxiangfenxi",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "22740778",
+      "name": "重置",
+      "font_class": "a-zu399",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "22740779",
+      "name": "垃圾桶",
+      "font_class": "a-lujing504",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "22740780",
+      "name": "疲劳驾驶",
+      "font_class": "a-zu6789",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "22740781",
+      "name": "更多",
+      "font_class": "a-zu406",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "22740782",
+      "name": "组 6781",
+      "font_class": "a-zu6781",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "22740783",
+      "name": "消息提示",
+      "font_class": "tishi",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "22740784",
+      "name": "3D",
+      "font_class": "a-3D",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "22740785",
+      "name": "组 404",
+      "font_class": "a-zu404",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "22740786",
+      "name": "组 6786",
+      "font_class": "a-zu6786",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "22740787",
+      "name": "站区分析",
+      "font_class": "zhanqufenxi",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "22740788",
+      "name": "组 328",
+      "font_class": "a-zu328",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "22740789",
+      "name": "终点",
+      "font_class": "a-zu6782",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "22740790",
+      "name": "组件 47 – 5",
+      "font_class": "a-zujian475",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "22740791",
+      "name": "组 6785",
+      "font_class": "a-zu6785",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "22740792",
+      "name": "主题换肤",
+      "font_class": "zhutihuanfu",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "22740793",
+      "name": "日历",
+      "font_class": "a-zujian1061",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "22740794",
+      "name": "行驶里程",
+      "font_class": "a-zu6773",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "22740795",
+      "name": "下拉箭头",
+      "font_class": "xialajiantou",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "22740796",
+      "name": "围栏监控",
+      "font_class": "weilanjiankong",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "22740797",
+      "name": "loading",
+      "font_class": "a-lujing616",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "22740798",
+      "name": "定位工具",
+      "font_class": "a-zu358",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "22740799",
+      "name": "圆形框选工具",
+      "font_class": "a-tuoyuan10",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "22740800",
+      "name": "车辆实时监控",
+      "font_class": "cheliangshishijiankong",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "22740801",
+      "name": "行驶时长",
+      "font_class": "a-zu6766",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "22812851",
+      "name": "下拉箭头",
+      "font_class": "shanglajiantou-copy",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "22785457",
+      "name": "箭头",
+      "font_class": "xia-copy",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "23059423",
+      "name": "箭头",
+      "font_class": "jiantou-copy",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    }
+  ]
+}

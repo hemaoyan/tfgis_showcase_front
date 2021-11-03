@@ -1,0 +1,199 @@
+/* fade动效 */
+/* 自左向右 */
+.fade-fromLeft-enter-active,
+.fade-fromLeft-leave-active {
+    transition: $transition_time;
+}
+.fade-fromLeft-enter {
+    opacity: 0;
+    transform: translateX(-20px);
+}
+.fade-fromLeft-leave-to {
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
+/* 自右向左 */
+.fade-fromRight-enter-active,
+.fade-fromRight-leave-active {
+    transition: $transition_time;
+}
+.fade-fromRight-enter {
+    opacity: 0;
+    transform: translateX(20px);
+}
+.fade-fromRight-leave-to {
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+
+/* 自下向上 */
+.fade-fromDown-enter-active,
+.fade-fromDown-leave-active {
+    transition: $transition_time;
+}
+.fade-fromDown-enter {
+    opacity: 0;
+    transform: translateY(20px);
+}
+.fade-fromDown-leave-to {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+/* 自上向下 */
+.fade-fromUp-enter-active,
+.fade-fromUp-leave-active {
+    transition: $transition_time;
+}
+.fade-fromUp-enter {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+.fade-fromUp-leave-to {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+/* 自小变大 */
+.fade-fromSmall-enter-active,
+.fade-fromSmall-leave-active {
+    transition: $transition_time;
+}
+.fade-fromSmall-enter {
+    opacity: 0;
+    transform: scaleY(0.5);
+}
+.fade-fromSmall-leave-to {
+    opacity: 0;
+    transform: scaleY(0.5);
+}
+
+/* 自大变小 */
+.fade-fromBig-enter-active,
+.fade-fromBig-leave-active {
+    transition: $transition_time;
+}
+.fade-fromBig-enter {
+    opacity: 0;
+    transform: scaleY(1.5);
+}
+.fade-fromBig-leave-to {
+    opacity: 0;
+    transform: scaleY(1.5);
+}
+
+/* 自小变大-X */
+.fade-fromSmallX-enter-active,
+.fade-fromSmallX-leave-active {
+    transition: $transition_time;
+}
+.fade-fromSmallX-enter {
+    opacity: 0;
+    transform: scaleX(0.5);
+}
+.fade-fromSmallX-leave-to {
+    opacity: 0;
+    transform: scaleX(0.5);
+}
+
+/* 自大变小-X */
+.fade-fromBigX-enter-active,
+.fade-fromBigX-leave-active {
+    transition: $transition_time;
+}
+.fade-fromBigX-enter {
+    opacity: 0;
+    transform: scaleX(1.5);
+}
+.fade-fromBigX-leave-to {
+    opacity: 0;
+    transform: scaleX(1.5);
+}
+
+// 360度旋转不停
+@-webkit-keyframes Parallaxs {
+    from {
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.xuanzhuan:not(:target) {
+    -webkit-animation-name: Parallaxs;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: Parallaxs;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -o-animation-name: Parallaxs;
+    -o-animation-duration: 1s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+    animation-name: Parallaxs;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+//心动点赞特效
+@keyframes mymoveOK {
+    0% {
+        opacity: 0.1;
+        font-size: 20px;
+    }
+    60% {
+        opacity: .8;
+        font-size: 12px;
+    }
+    80% {
+        opacity: 1;
+        font-size: 23px;
+    }
+    90% {
+        opacity: 1;
+        font-size: 20px;
+    }
+    95% {
+        opacity: 1;
+        font-size: 22px;
+    }
+    100% {
+        opacity: 1;
+        font-size: 20px;
+    }
+}
+.xindong:not(:target) {
+    animation: mymoveOK .5s linear;
+    animation-fill-mode: forwards; //动画结束时固定在最后一帧
+    animation-timing-function: steps(28); //非常重要的属性  没有TA，动画就no OK
+}
+
+@-webkit-keyframes moveFontSize {
+    50% {font-size:28px;}
+}
+
+//渐隐
+@keyframes fadeShow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.jianyin:not(:target) {
+    animation: fadeShow .5s linear;
+    animation-fill-mode: forwards; //动画结束时固定在最后一帧
+    animation-timing-function: steps(28); //非常重要的属性  没有TA，动画就no OK
+}

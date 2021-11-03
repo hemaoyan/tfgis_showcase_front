@@ -1,0 +1,39 @@
+.header-bar {
+  display: flex;
+  align-items: center;
+}
+
+.div-head-logo {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  .head-logo{
+    height:35px;
+    width: 35px;
+    margin: 0px 20px;
+  }
+  .head-title{
+    font-size: $font-size-big;
+    font-weight: $font-weight-bold;
+    line-height: $headBarHeight;
+  }
+}
+.div-head-menu {
+  width: 400px;
+}
+
+.head-menu-item {
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+    line-height: $headBarHeight;
+  }
+
+.menu-select {
+  font-weight: $font-weight-bold;
+  border-bottom-style: 2px #1A1D22 solid;
+}
+.menu-unselect {
+  color: $color-text-minor;
+}

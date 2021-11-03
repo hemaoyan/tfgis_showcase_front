@@ -1,0 +1,103 @@
+@import './variables.scss';
+@import './common.scss';
+@import './element.scss';
+@import './fontstyle.scss';
+@import './fadestyle.scss';
+
+// 全局滚动条
+::-webkit-scrollbar {
+  width: 6px;
+  height: 5px !important;
+}
+::-webkit-scrollbar-thumb {
+  // 毛玻璃
+  background: rgba(219, 219, 219, 0.7);
+  -webkit-backdrop-filter: saturate(180%) blur(30px);
+  backdrop-filter: saturate(185%) blur(30px);
+  border-radius: 4px;
+}
+
+//main-container全局样式
+.app_container {
+  font-size: $font_size_base;
+  font-family: Source Han Sans CN;
+  font-weight: $font_weight_normal;
+  color: $color_text_major;
+}
+
+.icon_container {
+  width: $img_container_width;
+  height: $img_container_height;
+  // background: $color_bg;
+  border-radius: $border_radius_small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  img {
+    width: $img_width;
+    height: $img_height;
+  }
+}
+.icon_container:hover{
+  background: rgba($color_bg_active_other, 0.55);
+}
+
+// 工具栏样式
+.tool_icon_active {
+  background: $color_primary;
+  color:  $color_bg_active_tool;
+}
+.tool_icon_active:hover {
+  background: $color_primary;
+  color: $color_bg_active_tool;
+}
+.tool_icon_active-other {
+  background: $color_bg_active_other;
+}
+
+// 毛玻璃效果
+.ground_glass {
+  background: rgba($color_bg, 0.75);
+  -webkit-backdrop-filter: saturate(180%) blur(30px);
+  backdrop-filter: saturate(185%) blur(30px);
+}
+
+.row_title {
+  position: relative;
+  width: 100%;
+  height: 45px;
+  .title{
+      float: left;
+      line-height: 45px;
+  }
+  .number{
+      float: right;
+      line-height: 45px;
+      margin-right: 20px;
+      // animation: moveFontSize 0.5S infinite;
+      // -webkit-animation: moveFontSize 0.5S infinite;
+  }
+  .unit{
+      position: absolute;
+      bottom: 8px;
+      right: 0px;
+  }
+}
+
+.row_content {
+  position: relative;
+  width: 100%;
+  .col_content{
+      position: relative;
+      display: inline-block;
+      box-sizing: border-box;
+      width: 50%;
+      .icon_content{
+          position: absolute;
+          top: 0px;
+          left: 0px;
+      }
+  }
+}

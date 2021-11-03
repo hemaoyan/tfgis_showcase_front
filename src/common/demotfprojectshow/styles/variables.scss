@@ -1,0 +1,38 @@
+// text color
+$color-text-major: #FFFFFF; // 主要字体颜色
+$color-text-minor: #959FA8; // 辅助字体颜色
+$color-text-active: #2154F4; // 活跃字体颜色
+$color-text-active-other: #FFFFFF; // 活跃字体颜色
+$color-text-image: #979FA7; // 图标字体颜色
+
+// Fonts:
+$font-size-base: 14px;
+$font-size-big: 20px;
+$font-size-small: 12px;
+$font-size-smallest: 10px;
+$font-weight-normal: normal;
+$font-weight-bold: bold;
+
+// bg color
+$color-bg: #1C2531;
+$color-bg-transparent: transparent;
+$color-bg-active: #2154F4;
+$color-bg-active-other: #DBDBDB;
+$color-bg-introduce: #000;
+
+// headbar
+$headBarHeight: 60px;
+
+// border
+$border-radius-normal: 12px;
+$border-radius-small: 6px;
+
+// img
+$img-width: 24px;
+$img-height: 24px;
+$img-container-width: 36px;
+$img-container-height: 36px;
+
+:export {
+  // border-radius-normal: $border-radius-normal;
+}

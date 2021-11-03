@@ -1,0 +1,223 @@
+.display_inline {
+  display: inline-block;
+}
+
+$base: 5px;
+
+// padding 缩写为 pd ,left缩写为l ,right缩写为 r,top缩写t,bottom缩写b
+// margin 缩写为 mg ,left缩写为l ,right缩写为 r,top缩写t,bottom缩写b
+
+//例如 左内边距10px  类名为 .pd_l_10 ，左外边距10px 类名为 .mg_l_10
+//目前提供的范围是 5px，10px，15px，20px
+
+.pd_5 {
+  padding: $base;
+}
+
+.pd_10 {
+  padding: $base * 2;
+}
+
+.pd_15 {
+  padding: $base * 3;
+}
+
+.pd_20 {
+  padding: $base * 4;
+}
+
+.mg_5 {
+  margin: $base;
+}
+
+.mg_10 {
+  margin: $base * 2;
+}
+
+.mg_15 {
+  margin: $base * 3;
+}
+
+.mg_20 {
+  margin: $base * 4;
+}
+
+.pd_l_5 {
+  padding-left: $base;
+}
+
+.pd_l_10 {
+  padding-left: $base * 2;
+}
+
+.pd_l_15 {
+  padding-left: $base * 3;
+}
+
+.pd_l_20 {
+  padding-left: $base * 4;
+}
+
+.pd_l_25 {
+  padding-left: $base * 5;
+}
+
+.pd_l_30 {
+  padding-left: $base * 6;
+}
+
+.pd_r_5 {
+  padding-right: $base;
+}
+
+.pd_r_10 {
+  padding-right: $base * 2;
+}
+
+.pd_r_15 {
+  padding-right: $base * 3;
+}
+
+.pd_r_20 {
+  padding-right: $base * 4;
+}
+
+.pd_r_25 {
+  padding-right: $base * 5;
+}
+
+.pd_r_30 {
+  padding-right: $base * 6;
+}
+
+.pd_t_5 {
+  padding-top: $base;
+}
+
+.pd_t_10 {
+  padding-top: $base * 2;
+}
+
+.pd_t_15 {
+  padding-top: $base * 3;
+}
+
+.pd_t_20 {
+  padding-top: $base * 4;
+}
+
+.pd_b_5 {
+  padding-bottom: $base;
+}
+
+.pd_b_10 {
+  padding-bottom: $base * 2;
+}
+
+.pd_b_15 {
+  padding-bottom: $base * 3;
+}
+
+.pd_b_20 {
+  padding-bottom: $base * 4;
+}
+
+.mg_l_5 {
+  margin-left: $base;
+}
+
+.mg_r_5 {
+  margin-right: $base;
+}
+
+.mg_t_5 {
+  margin-top: $base;
+}
+
+.mg_b_5 {
+  margin-bottom: $base;
+}
+
+.mg_l_10 {
+  margin-left: $base * 2;
+}
+
+.mg_r_10 {
+  margin-right: $base * 2;
+}
+
+.mg_t_10 {
+  margin-top: $base * 2;
+}
+
+.mg_b_10 {
+  margin-bottom: $base * 2;
+}
+
+.mg_l_15 {
+  margin-left: $base * 3;
+}
+
+.mg_r_15 {
+  margin-right: $base * 3;
+}
+
+.mg_t_15 {
+  margin-top: $base * 3;
+}
+
+.mg_b_15 {
+  margin-bottom: $base * 3;
+}
+
+.mg_l_20 {
+  margin-left: $base * 4;
+}
+
+.mg_r_20 {
+  margin-right: $base * 4;
+}
+
+.mg_t_20 {
+  margin-top: $base * 4;
+}
+
+.mg_b_20 {
+  margin-bottom: $base * 4;
+}
+
+.mg_l_25 {
+  margin-left: $base * 5;
+}
+
+.mg_l_40 {
+  margin-left: $base * 5;
+}
+
+.mg_r_25 {
+  margin-right: $base * 5;
+}
+
+.mg_t_25 {
+  margin-top: $base * 5;
+}
+
+.mg_b_25 {
+  margin-bottom: $base * 5;
+}
+
+.mg_l_30 {
+  margin-left: $base * 6;
+}
+
+.mg_r_30 {
+  margin-right: $base * 6;
+}
+
+.mg_t_30 {
+  margin-top: $base * 6;
+}
+
+.mg_b_30 {
+  margin-bottom: $base * 6;
+}

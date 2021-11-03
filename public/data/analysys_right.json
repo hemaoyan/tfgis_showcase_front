@@ -1,0 +1,130 @@
+{
+	"alermTotal": [
+		{
+			"totalNum": 7239,
+			"totalDetail": [
+				{"value": "1", "label": "超速", "num": 1070, "percent": 14.8, "icon":"icon_a-zu6822"}, 
+				{"value": "2", "label": "疲劳驾驶", "num": 1406, "percent": 19.2, "icon":"icon_a-zu6789"}, 
+				{"value": "3", "label": "违停", "num": 1132, "percent": 15.6, "icon":"icon_a-zu6792"}, 
+				{"value": "4", "label": "超区域行驶", "num": 1162, "percent": 16.1, "icon":"icon_a-zu6823"}, 
+				{"value": "5", "label": "隧道滞留", "num": 1011, "percent": 14.1, "icon":"icon_a-zu67941"}, 
+				{"value": "6", "label": "凌晨行驶", "num": 1458, "percent": 20.1, "icon":"icon_a-zu6826"}
+			]
+		},
+		{
+			"totalNum": 84691,
+			"totalDetail": [
+				{"value": "1", "label": "超速", "num": 14741, "percent": 17.4, "icon":"icon_a-zu6822"}, 
+				{"value": "2", "label": "疲劳驾驶", "num": 15322, "percent": 18.1, "icon":"icon_a-zu6789"}, 
+				{"value": "3", "label": "违停", "num": 14523, "percent": 17.1, "icon":"icon_a-zu6792"}, 
+				{"value": "4", "label": "超区域行驶", "num": 14157, "percent": 16.7, "icon":"icon_a-zu6823"}, 
+				{"value": "5", "label": "隧道滞留", "num": 10087, "percent": 11.9, "icon":"icon_a-zu67941"}, 
+				{"value": "6", "label": "凌晨行驶", "num": 15861, "percent": 18.7, "icon":"icon_a-zu6826"}
+			]
+		},
+		{
+			"totalNum": 82,
+			"totalDetail": [
+				{"value": "1", "label": "超速", "num": 17, "percent": 19.5, "icon":"icon_a-zu6822"}, 
+				{"value": "2", "label": "疲劳驾驶", "num": 17, "percent": 19.5, "icon":"icon_a-zu6789"}, 
+				{"value": "3", "label": "违停", "num": 16, "percent": 18.4, "icon":"icon_a-zu6792"}, 
+				{"value": "4", "label": "超区域行驶", "num": 11, "percent": 12.6, "icon":"icon_a-zu6823"}, 
+				{"value": "5", "label": "隧道滞留", "num": 14, "percent": 16.1, "icon":"icon_a-zu67941"}, 
+				{"value": "6", "label": "凌晨行驶", "num": 7, "percent": 8.0, "icon":"icon_a-zu6826"}
+			]
+		}
+	],
+	"alermType": [
+		{"value": "1", "label": "全部"},
+		{"value": "2", "label": "疲劳驾驶"},
+		{"value": "3", "label": "超速行驶"},
+		{"value": "4", "label": "违规停车"},
+		{"value": "5", "label": "隧道滞留"},
+		{"value": "6", "label": "凌晨行驶"},
+		{"value": "7", "label": "偏航行驶"},
+		{"value": "8", "label": "超区域行驶"},
+		{"value": "9", "label": "未报备驶入"}
+	],
+	"listAlerm": [
+		[
+			{"index": 1, "plate": "津A28372", "num" : 128},
+			{"index": 2, "plate": "津H93827", "num" : 126},
+			{"index": 3, "plate": "津R82983", "num" : 115},
+			{"index": 4, "plate": "津K93827", "num" : 113},
+			{"index": 5, "plate": "津P93827", "num" : 110},
+			{"index": 6, "plate": "津B98372", "num" : 109},
+			{"index": 7, "plate": "津E03982", "num" : 107},
+			{"index": 8, "plate": "津AEB938", "num" : 103},
+			{"index": 9, "plate": "津A01923", "num" : 102},
+			{"index": 10, "plate": "津BCD938", "num" : 99},
+			{"index": 11, "plate": "津AXV932", "num" : 94},
+			{"index": 12, "plate": "津MVD093", "num" : 92},
+			{"index": 13, "plate": "津AWS024", "num" : 89},
+			{"index": 14, "plate": "津BED923", "num" : 97},
+			{"index": 15, "plate": "津AMN054", "num" : 95},
+			{"index": 16, "plate": "津ABC090", "num" : 83},
+			{"index": 17, "plate": "津WSH989", "num" : 80},
+			{"index": 18, "plate": "津DFE092", "num" : 78},
+			{"index": 19, "plate": "津A20391", "num" : 75},
+			{"index": 20, "plate": "津A09238", "num" : 72}
+		],
+		[
+			{"index": 1, "plate": "津DEA271", "num" : 984},
+			{"index": 2, "plate": "津ENS982", "num" : 973},
+			{"index": 3, "plate": "津D92381", "num" : 968},
+			{"index": 4, "plate": "津EUS928", "num" : 962},
+			{"index": 5, "plate": "津DEQ090", "num" : 953},
+			{"index": 6, "plate": "津ABS982", "num" : 931},
+			{"index": 7, "plate": "津BPW918", "num" : 927},
+			{"index": 8, "plate": "津BNS983", "num" : 918},
+			{"index": 9, "plate": "津WKS928", "num" : 874},
+			{"index": 10, "plate": "津ESC231", "num" : 863},
+			{"index": 11, "plate": "津WSK932", "num" : 861},
+			{"index": 12, "plate": "津CBA932", "num" : 778},
+			{"index": 13, "plate": "津WSK092", "num" : 765},
+			{"index": 14, "plate": "津BMN231", "num" : 753},
+			{"index": 15, "plate": "津DPW038", "num" : 742},
+			{"index": 16, "plate": "津WQA219", "num" : 738},
+			{"index": 17, "plate": "津PEW978", "num" : 729},
+			{"index": 18, "plate": "津WSH382", "num" : 716},
+			{"index": 19, "plate": "津WSA231", "num" : 702},
+			{"index": 20, "plate": "津QWK321", "num" : 653}
+		],
+		[
+			{"index": 1, "plate": "津B97097", "num" : 356},
+			{"index": 2, "plate": "津B97097", "num" : 234},
+			{"index": 3, "plate": "津B97097", "num" : 223},
+			{"index": 4, "plate": "津B97097", "num" : 217},
+			{"index": 5, "plate": "津B97097", "num" : 208},
+			{"index": 6, "plate": "津B97097", "num" : 197},
+			{"index": 7, "plate": "津B97097", "num" : 176},
+			{"index": 8, "plate": "津B97097", "num" : 164},
+			{"index": 9, "plate": "津B97097", "num" : 149},
+			{"index": 10, "plate": "津B97097", "num" : 128},
+			{"index": 11, "plate": "津B97097", "num" : 113},
+			{"index": 12, "plate": "津B97097", "num" : 107},
+			{"index": 13, "plate": "津B97097", "num" : 103},
+			{"index": 14, "plate": "津B97097", "num" : 95},
+			{"index": 15, "plate": "津B97097", "num" : 91},
+			{"index": 16, "plate": "津B97097", "num" : 89},
+			{"index": 17, "plate": "津B97097", "num" : 84},
+			{"index": 18, "plate": "津B97097", "num" : 75},
+			{"index": 19, "plate": "津B97097", "num" : 71},
+			{"index": 20, "plate": "津B97097", "num" : 67}
+		]
+	],
+	"trafficAnalysis": [
+		[
+			{"label": "行驶里程", "num": 5817.5, "unit": "km", "icon":"icon_a-zu6773"}, 
+			{"label": "行驶时长", "num": 76.7, "unit": "h", "icon":"icon_a-zu67661"}, 
+			{"label": "最高时速", "num": 143, "unit": "km/h", "icon":"icon_a-zu6822"}, 
+			{"label": "疲劳驾驶", "num": 3.5, "unit": "h", "icon":"icon_a-zu6789"}, 
+			{"label": "偏航里程", "num": 47.3, "unit": "km", "icon":"icon_a-zu67741"}, 
+			{"label": "超区域里程", "num": 38.2, "unit": "km", "icon":"icon_a-zu6823"}, 
+			{"label": "未报备驶入", "num": 12, "unit": "次", "icon":"icon_a-zu6825"}, 
+			{"label": "违停", "num": 8, "unit": "次", "icon":"icon_a-zu6792"}, 
+			{"label": "隧道滞留", "num": 3, "unit": "次", "icon":"icon_a-zu67941"}, 
+			{"label": "凌晨行驶", "num": 5, "unit": "次", "icon":"icon_a-zu6826"} 
+		]
+	]
+}

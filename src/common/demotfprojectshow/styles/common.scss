@@ -1,0 +1,142 @@
+
+.display-inline{
+    display: inline-block;
+}
+
+$base:5px;
+
+// padding 缩写为 pd ,left缩写为l ,right缩写为 r,top缩写t,bottom缩写b
+// margin 缩写为 mg ,left缩写为l ,right缩写为 r,top缩写t,bottom缩写b
+
+//例如 左内边距10px  类名为 .pd-l-10 ，左外边距10px 类名为 .mg-l-10
+//目前提供的范围是 5px，10px，15px，20px
+
+.pd-5{
+    padding: $base;
+}
+.pd-10{
+    padding: $base * 2;
+}
+.pd-15{
+    padding: $base * 3;
+}
+.pd-20{
+    padding: $base * 4;
+}
+
+.mg-5{
+    margin: $base;
+}
+.mg-10{
+    margin: $base * 2;
+}
+.mg-15{
+    margin: $base * 3;
+}
+.mg-20{
+    margin: $base * 4;
+}
+
+.pd-l-5{
+    padding-left: $base;
+}
+.pd-l-10 {
+    padding-left: $base*2;
+}
+.pd-l-15 {
+    padding-left: $base*3;
+}
+.pd-l-20 {
+    padding-left: $base*4;
+}
+
+.pd-r-5{
+    padding-right: $base;
+}
+.pd-r-10 {
+    padding-right: $base*2;
+}
+.pd-r-15 {
+    padding-right: $base*3;
+}
+.pd-r-20 {
+    padding-right: $base*4;
+}
+
+.pd-t-5{
+    padding-top: $base;
+}
+.pd-t-10 {
+    padding-top: $base*2;
+}
+.pd-t-15 {
+    padding-top: $base*3;
+}
+.pd-t-20 {
+    padding-top: $base*4;
+}
+
+.pd-b-5{
+    padding-bottom: $base;
+}
+.pd-b-10 {
+    padding-bottom: $base*2;
+}
+.pd-b-15 {
+    padding-bottom: $base*3;
+}
+.pd-b-20 {
+    padding-bottom: $base*4;
+}
+
+.mg-l-5{
+    margin-left: $base;
+}
+.mg-r-5{
+    margin-right: $base;
+}
+.mg-t-5{
+    margin-top: $base;
+}
+.mg-b-5{
+    margin-bottom: $base;
+}
+
+.mg-l-10{
+    margin-left: $base * 2;
+}
+.mg-r-10{
+    margin-right: $base * 2;
+}
+.mg-t-10{
+    margin-top: $base * 2;
+}
+.mg-b-10{
+    margin-bottom: $base * 2;
+}
+
+.mg-l-15{
+    margin-left: $base * 3;
+}
+.mg-r-15{
+    margin-right: $base * 3;
+}
+.mg-t-15{
+    margin-top: $base * 3;
+}
+.mg-b-15{
+    margin-bottom: $base * 3;
+}
+
+.mg-l-20{
+    margin-left: $base * 4;
+}
+.mg-r-20{
+    margin-right: $base * 4;
+}
+.mg-t-20{
+    margin-top: $base * 4;
+}
+.mg-b-20{
+    margin-bottom: $base * 4;
+}
